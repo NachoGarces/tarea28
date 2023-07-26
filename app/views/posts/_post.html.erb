@@ -1,0 +1,28 @@
+<div id="<%= dom_id post %>">
+  <p>
+    <strong>Foto:</strong>
+    <% if post.foto.attached? %>
+      <image src="<%= url_for(post.foto) %>" height=200>
+    <% end %>
+  </p>
+
+  <p>
+    <strong>Comentarios:</strong>
+    <% @comentarios.each do |com| %>
+      <%= com %>
+    <% end %>
+  </p>
+
+  <%= form_with(model: @comentarios) do |form| %>
+    <div>
+      <%= form.label :comentario, style: "display: block" %>
+      <%= form.text_field :comentario %>
+    </div>
+
+    <div>
+      <%= form.submit %>
+    </div>
+  <% end %>
+
+
+</div>

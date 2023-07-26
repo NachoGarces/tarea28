@@ -1,24 +1,10 @@
-# README
 
-This README would normally document whatever steps are necessary to get the
-application up and running.
+## Desafío - Utilizar Amazon S3 en proyecto en Rails
 
-Things you may want to cover:
 
-* Ruby version
+## Autor
 
-* System dependencies
+- [@NachoGarces](https://github.com/NachoGarces)
 
-* Configuration
 
-* Database creation
-
-* Database initialization
-
-* How to run the test suite
-
-* Services (job queues, cache servers, search engines, etc.)
-
-* Deployment instructions
-
-* ...
+#### ruby 3.1.4p223        -        Rails 7.0.4
